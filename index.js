@@ -3,7 +3,7 @@ const ui = require('readline').createInterface({
     output: process.stdout
 });
 
-ui.question('Hi there! What is your name please (test)?\n\n', input => {
+ui.question('Hi there! What is your name?\n\n', input => {
     const message = sayHello(input)
     console.log(message)
     ui.close();
